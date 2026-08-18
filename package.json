@@ -1,0 +1,17 @@
+{
+  "name": "ai-gateway-pro",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Premium AI Gateway Pro - Vercel/Linear 2026 Style",
+  "workspaces": {
+    "packages": ["app", "server"]
+  },
+  "scripts": {
+    "dev": "concurrently \"cd app && npm run dev\" \"cd server && npm run dev\"",
+    "build": "cd app && npm run build",
+    "start": "cd app && npm run preview"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
