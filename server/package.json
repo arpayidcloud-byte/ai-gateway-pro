@@ -1,0 +1,14 @@
+{
+  "name": "ai-gateway-pro-server",
+  "version": "1.0.0",
+  "description": "Real-time AI Gateway Pro Backend for Kimi_Agent_AI Gateway Pro frontend",
+  "main": "server.js",
+  "scripts": {
+    "dev": "node server.js",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "cors": "^2.8.5"
+  }
+}
